@@ -1,1 +1,2 @@
-"# 502"
+## Oefening 502
+JavaScript card generator

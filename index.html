@@ -1,13 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
     <script src="main.js"></script>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td>
+          <h1>
+            Speelkaart applicatie
+          </h1>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <input type="text" id="kleur" />
+          <input type="text" id="waarde" />
+          <button onclick="maakKaart()">Maak</button>
+        </td>
+        <td colspan="1">
+          <button onclick="randomKaart()">Random</button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div id="result"></div>
+        </td>
+      </tr>
+    </table>
+  </body>
 </html>
